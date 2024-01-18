@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Information {
+    display: flex;
+    flex: 1;
+}
+
+.More_info {
+    display: flex;
+    background-color: #E5E7EB;
+    flex: 1;
+
+}
+
+.Signup_bar {
+    display: flex;
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    color: white;
+    padding: 16px;
+}
+
+.foot_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
